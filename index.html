@@ -727,7 +727,7 @@
                     <span id="shipping">0 FCFA</span>
                 </div>
                 <div class="flex justify-between mb-2">
-                    <span>Taxes (18%):</span>
+                    <span>Taxes (0%):</span>
                     <span id="taxes">0 FCFA</span>
                 </div>
                 <div class="flex justify-between font-bold text-lg mb-4">
@@ -832,7 +832,7 @@
     <script>
         // Cart functionality with localStorage persistence
         let cart = JSON.parse(localStorage.getItem('stan-cart')) || [];
-        const taxRate = 0.18; // 18% tax
+        const taxRate = 0.0; // 18% tax
         const freeShippingThreshold = 10000; // Free shipping above 10000 FCFA
         
         // Save cart to localStorage
@@ -1163,4 +1163,5 @@
         updateCart();
     </script>
 </body>
+
 </html>
