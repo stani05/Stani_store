@@ -482,6 +482,33 @@
                                     </div>
                                 </div>
                             </div>
+                            
+                            <!-- Huile de Coco -->
+                            <div class="product-card bg-white rounded-lg overflow-hidden shadow-sm transition duration-300" data-id="7" data-name="Huile de Coco" data-price="6000" data-image="Huile de coco.jpg">
+                                <div class="relative overflow-hidden">
+                                    <img src="Huile de coco.jpg" alt="Huile de Coco" class="w-full h-64 object-cover product-image">
+                                </div>
+                                <div class="p-4">
+                                    <div class="flex justify-between items-start">
+                                        <div>
+                                            <h3 class="font-medium text-lg mb-1">Huile de Coco</h3>
+                                            <p class="text-gray-500 text-sm">Soin complet</p>
+                                        </div>
+                                        <button class="text-gray-400 hover:text-red-500 transition duration-300">
+                                            <i class="far fa-heart"></i>
+                                        </button>
+                                    </div>
+                                    <div class="mt-3">
+                                        <p class="text-sm text-gray-600 mb-2">Nourrit, renforce et apporte brillance à la peau et/ou aux cheveux.</p>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                        <span class="font-bold text-indigo-600">6 000 FCFA</span>
+                                        <button class="add-to-cart bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-1 rounded-full text-sm transition duration-300">
+                                            <i class="fas fa-shopping-cart mr-1"></i> Ajouter
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -787,7 +814,7 @@
                     <h2 class="text-3xl font-bold mb-6">À propos de STAN</h2>
                     <p class="text-gray-700 mb-4">STAN est une boutique afro située à Ouagadougou, spécialisée dans les produits culturels et technologiques pour la jeunesse burkinabè.</p>
                     <p class="text-gray-700 mb-4">Nous proposons une large sélection d'articles allant des vêtements traditionnels aux accessoires technologiques modernes, en passant par l'artisanat local.</p>
-                    <p class="text-gray-700 mb-6">Notre mission est de promouvoir la culture africaine tout en rendant accessible la technologie moderne à tous.</p>
+                    <p class="text-gray-700 mb-6">Notre mission est de promouvoir la culture africaine tout en rending accessible la technologie moderne à tous.</p>
                     <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full font-medium inline-block transition duration-300">En savoir plus</a>
                 </div>
             </div>
@@ -1198,7 +1225,7 @@
         // Back to top button
         const backToTopButton = document.getElementById('back-to-top');
         
-        window.addEventListener('scroll', () => {
+        window.addEventListener('scroll', () {
             if (window.pageYOffset > 300) {
                 backToTopButton.classList.add('active');
             } else {
